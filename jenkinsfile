@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello GitHub webhook'
+                echo 'Hello from GitHub webhook'
             }
         }
         stage('Build') {
